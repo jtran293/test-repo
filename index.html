@@ -56,21 +56,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebGL Builds.loader.js";
+      var loaderUrl = buildUrl + "/WebGL_Test.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL Builds.data",
-        frameworkUrl: buildUrl + "/WebGL Builds.framework.js",
-        codeUrl: buildUrl + "/WebGL Builds.wasm",
+        dataUrl: buildUrl + "/WebGL_Test.data",
+        frameworkUrl: buildUrl + "/WebGL_Test.framework.js",
+        codeUrl: buildUrl + "/WebGL_Test.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Grant's Office",
-<<<<<<< HEAD
         productVersion: "0",
-        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
-        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
-      });
-=======
-        productVersion: "0.3",
         showBanner: unityShowBanner,
       };
 
@@ -122,7 +116,6 @@
         });
       };
       document.body.appendChild(script);
->>>>>>> parent of e38babb (WebGL_Bug_Fixed)
     </script>
   </body>
 </html>
